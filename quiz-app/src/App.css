@@ -1,0 +1,436 @@
+.container {
+  text-align: center;
+  /* background-color: red; */
+  background: #5c074b;
+  width: 100%;
+  height: 100vh;
+  /* display: contents;
+  justify-content: center;
+  align-content: center;
+  top:5rem; */
+
+
+}
+.ead{
+ 
+  font-weight: 700;
+  font-size: 70px;
+  margin-top:6rem;
+  /* font-family: fantasy;
+     transform:rotate(10deg)!important;
+     color: #ffff;
+     
+     position: absolute;
+     font-size: 50px; */
+  }
+
+  
+  .ear{
+      transform:rotate(0deg);
+      /* margin-left: 39rem; */
+      border-radius: 20px;
+      background-color: white;
+      border: none;
+      width: 130px;
+      height: 30px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 15rem;
+  }
+  .bubbles{
+    position:absolute;
+    width:100%;
+    height: 100%;
+    z-index:0;
+    overflow:hidden;
+    top:0;
+    left:0;
+  }
+  .bubble{
+    position: absolute;
+    bottom:-100px;
+    width:40px;
+    height: 40px;
+    background:#f1f1f1;
+    border-radius:50%;
+    opacity:0.5;
+    animation: rise 10s infinite ease-in;
+  }
+  .bubble:nth-child(1){
+    width:40px;
+    height:40px;
+    left:10%;
+    animation-duration:8s;
+  }
+  .bubble:nth-child(2){
+    width:20px;
+    height:20px;
+    left:20%;
+    animation-duration:5s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(3){
+    width:50px;
+    height:50px;
+    left:35%;
+    animation-duration:7s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(4){
+    width:80px;
+    height:80px;
+    left:50%;
+    animation-duration:11s;
+    animation-delay:0s;
+  }
+  .bubble:nth-child(5){
+    width:35px;
+    height:35px;
+    left:55%;
+    animation-duration:6s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(6){
+    width:45px;
+    height:45px;
+    left:65%;
+    animation-duration:8s;
+    animation-delay:3s;
+  }
+  .bubble:nth-child(7){
+    width:90px;
+    height:90px;
+    left:70%;
+    animation-duration:12s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(8){
+    width:25px;
+    height:25px;
+    left:80%;
+    animation-duration:6s;
+    animation-delay:2s;
+  }
+  .bubble:nth-child(9){
+    width:15px;
+    height:15px;
+    left:70%;
+    animation-duration:5s;
+    animation-delay:1s;
+  }
+  .bubble:nth-child(10){
+    width:90px;
+    height:90px;
+    left:25%;
+    animation-duration:10s;
+    animation-delay:4s;
+  }
+  @keyframes rise{
+    0%{
+      bottom:-100px;
+      transform:translateX(0);
+    }
+    50%{
+      transform:translate(100px);
+    }
+    100%{
+      bottom:1080px;
+      transform:translateX(-200px);
+    }
+  }
+
+
+
+/* uestionaire */
+.App{
+  text-align: center;
+  background-color: #5c074b;
+  /* background: #5c074b; */
+  width: 100%;
+  height: 100vh;
+  color: white;
+  position: absolute;
+}
+.btnAnswer{
+  display: block;
+    margin: 0 auto;
+    width: 200px;
+    background: rgb(252, 172, 52);
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    border-radius: 6px;
+}
+.btnAnswer:hover{
+  background-color: rgb(36, 177, 36);
+}
+
+.question{
+  font-size: 15px;
+  /* margin-top: rem; */
+  
+}
+.quizArea{
+  margin-top: 2rem;
+  /* background-color: yellow; */
+  height: 60vh;
+}
+.scorewrapper{
+  
+  width: 100%;
+  height: 30vh;
+  text-align: center;
+  color: white;
+  
+}
+.correct{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 4em;
+  font-size: 15px;
+ color: rgb(16, 223, 16);
+ height: 4vh;
+ width: 11rem;
+ border-radius: 10px;
+  /* margin-top: 8rem;  */
+}
+.incorrect{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 5em;
+  font-size: 15px;
+  color: red;
+  height: 4vh;
+  width: 10rem;
+  border-radius: 10px;
+  /* margin-top: 8.8rem; */
+}
+.count{
+  margin-top: 5rem;
+  left: 24rem;
+  /* flex: 1; */
+  position: absolute;
+ 
+}
+
+.backbtn{
+  width: 100px;
+    background:white;
+    font-size: 16px;
+    color: #5c074b;;
+    cursor: pointer;
+    border: none;
+    /* bottom: 5rem; */
+    /* left:39rem ; */
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    /* position: absolute; */
+    font-weight: 600;
+}
+
+/* second */
+
+.basic{
+  font-size: 35px;
+  margin-top:15px;
+   text-align: center;
+  }
+  .search{
+  background: rgba(52, 8, 43, 0.989); 
+  border-radius: 10px;
+  color: white;
+   width: 30%;
+   height: 2.5rem;
+   align-items:center; 
+  
+  }
+  .hmm{
+  margin-top: 100px;
+  display:flex; 
+  justify-content: center;
+  
+  
+  }
+  
+  .sections {
+  margin-top: 80px;
+  display:flex;
+  flex-direction: column; 
+  justify-content: center;
+   align-items:center;
+   
+  
+  }
+  .todo1{
+  background: #b74fa2;
+  color: white!important;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+   width: 30%;
+   height: 2.5rem;
+   text-align: center;
+  
+  }
+  .todo2{
+    background:  rgb(252, 190, 96);
+    color: white!important;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 30%;
+    height: 2.5rem;
+    text-align: center;
+    
+  }
+
+  .todo3{
+    background: rgb(207, 239, 47);
+    color: white!important;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 30%;
+    height: 2.5rem;
+    text-align: center;
+  
+  }
+
+  .todo4{
+    background: #b74fa2;
+    color: white!important;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 30%;
+    height: 2.5rem;
+    text-align: center;
+    
+  }
+
+  .btnkuit{
+    border-radius: 20px;
+    border: none;
+    color: purple;
+    background-color: white;
+    height: 38px;
+    width: 130px;
+     
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+
+ /* First-mobile  */
+@media (max-width: 950px) {
+  .ear{
+    text-align: center;
+    /* margin-left: 9rem; */
+    margin-top: 20rem;
+  }
+  .count{
+    margin-top: 8rem;
+    left: 2rem;
+  }
+  .correct{
+    margin: 1em;
+    height: 3vh;
+  }
+  .incorrect{
+    margin: 0.3em;
+    height: 3vh;
+  }
+ }
+  
+
+
+
+
+
+
+
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
