@@ -4,8 +4,6 @@ import AnswerList from './AnswerList';
 import images  from'./images/mark.png';
 
 // import UserGreeting from './UserGreeting';
-// import Prevbtn from './Prevbtn';
-// import dataSet from '../api/dataSet';
 
 function QuizArea(props) {
     // if(props.IsFinished) {
