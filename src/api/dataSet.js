@@ -1,4 +1,16 @@
 const dataSet = [
+
+  {
+    question: " One of these is not a programming language?",
+    options:[
+        " Python",
+        "Html",
+        "Javascript",
+        "C++",
+    ],
+    correct: 1
+  
+  },
  
   {
     question: "Which ofthe following gland secrete tears?",
@@ -13,8 +25,6 @@ const dataSet = [
 
   },
 
-
- 
   {
     question: "In which sport would you use a shuttlecock?",
     options:[
@@ -33,7 +43,7 @@ const dataSet = [
     options:[
         "Stapes in the ear",
         "Phalanges in the fingers",
-        "Ociput in the brain",
+        "Ocipult in the head",
         "Chintin on the nails ",
       
     ],
@@ -95,17 +105,7 @@ const dataSet = [
 
   },
 
-  {
-    question: " One of these is not a programming language?",
-    options:[
-        " Python",
-        "Html",
-        "Javascript",
-        "C++",
-    ],
-    correct: 1
-  
-  },
+ 
 
 
   {
@@ -161,21 +161,6 @@ const dataSet = [
     correct: 3
 
   },
-
-
- 
-
-  {
-  question: " What is the name for a computer pointing device?",
-  options:[
-      " Sound Card",
-      "Ram",
-      " Monitor",
-      " A Mouse",
-  ],
-  correct: 3
-
-},
 
 
   {
