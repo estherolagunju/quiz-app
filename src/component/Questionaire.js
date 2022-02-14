@@ -99,7 +99,7 @@ reset() {
         
                      <TotalCorrect correct={this.state.correct}/>
                     <button className='backbtn' onClick={()=>{this.reset()}}>
-                    Back
+                    Restart
                 </button>
                
                 </>
